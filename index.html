@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by J</title>
+
+
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <div class="relative">
+    <div class="start">
+      <h2 class="test-center"> Please pick one </h2>
+      <div class="options x">
+        <a href="#!" class="cross waves-effect waves-circle waves-light btn-floating  op">
+          <i class="large material-icons">clear</i>
+         </a>
+        <p>X goes first</p>
+      </div>
+      <div class="options o">
+        <a href="#!" class="circle waves-effect waves-circle waves-light btn-floating op">
+          <i class="large material-icons">panorama_fish_eye</i>
+         </a>
+        <p>O goes second</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col s6 push-s3">
+        <h1 class="title"> TIC TAC TOE </h1>
+      </div>
+    </div>
+    <div class="g" id="game">
+      <div class="row">
+        <div class="col s7 push-s4">
+          <table id="mytab1">
+            <tbody>
+              <tr>
+                <td class="btn-large waves-teal z-depth-2" id='0'><span class='thing'></span></td>
+                <td class="btn-large waves-teal z-depth-2" id='1'><span class='thing'></span></td>
+                <td class="btn-large waves-teal z-depth-2" id='2'><span class='thing'></span></td>
+              </tr>
+              <tr>
+                <td class="btn-large waves-teal z-depth-2" id='3'><span class='thing'></span></td>
+                <td class="btn-large waves-teal z-depth-2" id='4'><span class='thing'></span></td>
+                <td class="btn-large waves-teal z-depth-2" id='5'><span class='thing'></span></td>
+              </tr>
+              <tr>
+                <td class="btn-large waves-teal z-depth-2" id='6'><span class='thing'></span></td>
+                <td class="btn-large waves-teal z-depth-2" id='7'><span class='thing'></span></td>
+                <td class="btn-large waves-teal z-depth-2" id='8'><span class='thing'></span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s8 push-s1">
+          <a href="#!" class="waves-effect waves-circle waves-light btn-floating secondary-content reset">
+          <i class="large material-icons">redo</i>
+         </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js'></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
